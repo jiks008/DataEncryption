@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
           #1.
           s.name               = "DataEncryption"
           #2.
-          s.version            = "1.0.0"
+          s.version            = "1.0.1"
           #3.  
           s.summary         = "DataEncryption framework"
           #4.
@@ -12,9 +12,9 @@ Pod::Spec.new do |s|
           #6.
           s.author               = "jiks"
           #7.
-          s.platform            = :ios, "10.0"
+          s.platform            = :ios
           #8.
-          s.source              = { :git => "https://github.com/jiks008/DataEncryption.git", :tag => "1.0.0" }
+          s.source              = { :git => "https://github.com/jiks008/DataEncryption.git", :tag => s.version }
           #9.
           s.source_files     = "DataEncryption", "DataEncryption/**/*.{h,m,swift}"
 end
