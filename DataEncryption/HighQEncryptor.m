@@ -4,7 +4,7 @@
 
 #import "HighQEncryptor.h"
 #import "NSData+Base64.h"
-
+#import <CommonCrypto/CommonCryptor.h>
 @implementation HighQEncryptor
 
 #pragma mark -

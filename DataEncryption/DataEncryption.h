@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <CommonCrypto/CommonCryptor.h>
 #import <DataEncryption/HighQEncryptor.h>
 #import <DataEncryption/NSData+Base64.h>
 
