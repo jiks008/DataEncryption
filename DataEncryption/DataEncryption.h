@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import <CommonCrypto/CommonCryptor.h>
-
+#import <DataEncryption/HighQEncryptor.h>
+#import <DataEncryption/NSData+Base64.h>
 
 //! Project version number for DataEncryption.
 FOUNDATION_EXPORT double DataEncryptionVersionNumber;
