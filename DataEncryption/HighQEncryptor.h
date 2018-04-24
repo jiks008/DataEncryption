@@ -1,7 +1,8 @@
 
 
-#import <CommonCrypto/CommonCryptor.h>
+
 #import <Foundation/Foundation.h>
+#import "DataEncryption.h"
 
 #define FBENCRYPT_ALGORITHM     kCCAlgorithm3DES
 #define FBENCRYPT_BLOCK_SIZE    64
